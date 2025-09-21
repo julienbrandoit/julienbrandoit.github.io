@@ -2,7 +2,7 @@
 title: "[new preprint] Fast reconstruction of degenerate populations of conductance-based neuron models from spike times"
 date: 2025-09-17
 categories: [Research, Publications]
-description: My first preprint is now available on arXiv!
+description: My first preprint is now available on arXiv! with Damien Ernst, Guillaume Drion, and Arthur Fyon.
 tags: [preprint, research, computational neuroscience]
 ---
 
@@ -20,3 +20,22 @@ Inferring the biophysical parameters of conductance-based models (CBMs) from exp
 ***Figure 1:** Our approach is designed to be practical for experimentalists through a user-friendly interface. Starting from spike train recordings, users can easily generate and explore populations of conductance-based models (CBMs) that replicate the observed spiking activity.*
 
 **Contact:** For questions or collaborations, please reach out to me at [jbrandoit@uliege.be](mailto:jbrandoit@uliege.be).
+
+*Damien Ernst's webpage* : [Damien Ernst](https://damien-ernst.be/)
+
+*Guillaume Drion's webpage* : [Guillaume Drion](https://scholar.google.com/citations?user=LchHbKkAAAAJ&hl=en)
+
+*Arthur Fyon's webpage* : [Arthur Fyon](https://arthur-fyon.github.io/)
+
+**BibTeX citation:**
+```BibTeX
+@misc{brandoit2025fastreconstructiondegeneratepopulations,
+      title={Fast reconstruction of degenerate populations of conductance-based neuron models from spike times}, 
+      author={Julien Brandoit and Damien Ernst and Guillaume Drion and Arthur Fyon},
+      year={2025},
+      eprint={2509.12783},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.NC},
+      url={https://arxiv.org/abs/2509.12783}, 
+}
+```
