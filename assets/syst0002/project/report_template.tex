@@ -1,0 +1,98 @@
+\documentclass[a4paper, 11pt]{article}
+
+%% Language and font encodings %%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%%%%%%% Page Size, Geometry and Margin Size %%%%%%%%%
+\usepackage[a4paper]{geometry}
+\usepackage{parskip}
+
+%%%%%%% USEFUL PACKAGES %%%%%%%%%
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[dvipsnames, svgnames, table]{xcolor}
+\usepackage{graphicx}
+\usepackage[format=hang]{caption}
+\usepackage{subcaption}
+\captionsetup{format=hang, labelfont=bf}
+\usepackage{microtype}
+\usepackage[french]{babel}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, hyperfigures=true]{hyperref}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % horizontal line and its thickness
+\center
+
+~\\
+\vspace{3cm}
+
+\HRule \\[0.5cm]
+{ \huge \bfseries SYST0002 - Introduction aux signaux et systèmes\\ ~\\ \Large Rapport de projet}\\[0.5cm]
+\HRule
+
+~\\[2cm]
+
+\large
+
+\vspace{5cm}
+
+{\Large
+\begin{flushleft}
+\begin{tabular}{l|l}
+Professeurs & Guillaume Drion \& Alessio Franci\\
+Assistants & Julien Brandoit \& Julien Vanderheyden \\
+Auteurs & \textcolor{red}{????} \& \textcolor{red}{????}\\
+Matricules & S\textcolor{red}{XXXXXX} \& S\textcolor{red}{XXXXXX}
+\end{tabular}
+\end{flushleft}
+}
+
+\vfill
+
+\begin{center}
+\textsc{Année académique 2025 -- 2026}
+\end{center}
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\section*{Partie 1 -- Modèle d'état, simulations et analyse de stabilité}
+
+\subsection*{Caractérisation du système}
+
+%VOTRE RÉPONSE POUR LE PREMIER ITEM DE LA QUESTION 1. CECI EST ÉVIDEMENT À RETIRER ET À REMPLACER PAR LA DYNAMIQUE DU BICOPTERE...
+
+La dynamique du système est donnée par l'équation~\eqref{eq:example} :
+\begin{equation}\label{eq:example}
+\begin{cases}
+\dot{x} &= 4t^2 u + \sin x\\
+\dot{y} &= x
+\end{cases}\,,
+\end{equation}
+Le système est non-linéaire et variant dans le temps. En effet, on observe que la fonction non-linéaire $\sin(\cdot)$ s'applique à la variable d'état $x$ dans l'équation de sa dynamique, ce qui rend le système non-linéaire. De plus, le facteur $t^2$ rend le système variant dans le temps.
+
+\subsection*{Écriture de la dynamique suivant le formalisme de la théorie du contrôle}
+
+...
+\newpage
+
+\section*{Partie 2 -- Introduction d'un contrôleur}
+
+...
+
+\newpage
+
+\section*{Partie 3 -- Fonction de transfert et diagrammes de Bode}
+
+...
+
+\end{document}
