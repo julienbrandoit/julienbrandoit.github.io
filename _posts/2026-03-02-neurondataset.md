@@ -3,7 +3,7 @@ title: "[new release] Conductance-based neuron dataset generator and pre-generat
 date: 2026-03-02
 categories: [Research, Publications]
 description: Open-source Python toolkit for simulating large populations of conductance-based neuron models, plus six ready-to-use spike-train datasets on Zenodo.
-tags: [preprint, research, computational neuroscience, deep-learning, neuron models]
+tags: [preprint, research, computational neuroscience, deep learning, neuron models]
 ---
 
 ![Conductance-based neuron dataset generator icon](assets/neurondataset/icon.png)
