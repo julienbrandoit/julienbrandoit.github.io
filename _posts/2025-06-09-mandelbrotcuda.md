@@ -213,7 +213,7 @@ nvcc -o mandelbrot mandelbrotdrawer.cu -ljpeg
 
 After compiling, we can run the program, and it will generate a file named `mandelbrot_cuda.jpg` containing the rendered Mandelbrot set.
 
-![Here is the resulting image.](assets/mandelbrotcuda/mandelbrot_cuda.jpg)
+![Here is the resulting image.](../assets/mandelbrotcuda/mandelbrot_cuda.jpg)
 ***Figure 1: Mandelbrot set rendered with CUDA.** The maximum number of iterations is 10000, and the image size is 25600x25600 pixels.*
 
 You can experiment with different parameters, such as the region of the complex plane, the image size, and the maximum number of iterations, to explore different aspects and approximations of the Mandelbrot set. Enjoy exploring the fascinating world of fractals with CUDA!

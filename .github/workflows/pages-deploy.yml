@@ -46,6 +46,8 @@ jobs:
           bundler-cache: true
 
       - name: Build site
+        # Obsidian-friendly ../assets/ paths are rewritten to /assets/ at build
+        # time by _plugins/assets-path-rewrite.rb, so a plain build is enough.
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"

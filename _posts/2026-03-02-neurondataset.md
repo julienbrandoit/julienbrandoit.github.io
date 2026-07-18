@@ -6,7 +6,7 @@ description: Open-source Python toolkit for simulating large populations of cond
 tags: [preprint, research, computational neuroscience, deep learning, neuron models]
 ---
 
-![Conductance-based neuron dataset generator icon](assets/neurondataset/icon.png)
+![Conductance-based neuron dataset generator icon](../assets/neurondataset/icon.png)
 
 I am happy to announce the public release of the **conductance-based neuron dataset generator**, a Python toolkit for simulating large populations of conductance-based neuron (CBM) models and collecting their spike trains. This toolkit was developed to support the work presented in our preprint [*Fast reconstruction of degenerate populations of conductance-based neuron models from spike times*](https://julienbrandoit.github.io/posts/fastdegenerate/) and future works, and we are now making it available as a standalone open-source tool.
 
