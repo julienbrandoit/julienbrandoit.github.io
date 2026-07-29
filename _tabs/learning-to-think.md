@@ -6,7 +6,7 @@ title: Learning to think (again)
 permalink: /learning-to-think-again/
 ---
 
-My daily code challenge, kept in the open. One small problem a day, solved by
+My daily code challenge. One small problem a day, solved by
 hand, to rebuild the habit of thinking about code in the age of LLMs. The whole
 thing lives in an independent repository,
 [**Learning to think (again)**](https://github.com/julienbrandoit/Learning-to-think-again);
