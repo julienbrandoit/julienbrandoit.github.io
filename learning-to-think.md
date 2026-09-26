@@ -1,4 +1,6 @@
 ---
+# Temporarily moved out of `_tabs/` so it no longer shows in the sidebar.
+# To restore the sidebar entry: `git mv learning-to-think.md _tabs/`
 layout: page
 icon: fas fa-brain
 order: 6
