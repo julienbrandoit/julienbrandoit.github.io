@@ -27,3 +27,5 @@ _sass/vendors
 assets/js/dist
 
 _draft/
+# macOS
+.DS_Store
